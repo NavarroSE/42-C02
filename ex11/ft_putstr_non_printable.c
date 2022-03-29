@@ -6,9 +6,11 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 21:32:28 by manavarr          #+#    #+#             */
-/*   Updated: 2022/03/29 14:14:39 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/03/29 17:49:08 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <unistd.h>
 
 void	ft_putchar(char c)
 {
