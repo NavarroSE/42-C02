@@ -6,7 +6,7 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/28 19:49:50 by manavarr          #+#    #+#             */
-/*   Updated: 2022/03/29 19:48:14 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/03/30 13:22:43 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,8 +38,11 @@ char	*ft_strcapitalize(char *str)
 		{
 			if (str[c] < 'a' || str[c] > 'z')
 			{
-				if (str[c + 1] >= 'a' && str[c + 1] <= 'z')
-					str[c + 1] = str[c + 1] - 32;
+				if (str[c] < 'A' || str[c] > 'Z')
+				{
+					if (str[c + 1] >= 'a' && str[c + 1] <= 'z')
+						str[c + 1] = str[c + 1] - 32;
+				}
 			}
 		}
 		c++;
