@@ -6,9 +6,11 @@
 /*   By: manavarr <manavarr@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/27 18:58:53 by manavarr          #+#    #+#             */
-/*   Updated: 2022/03/29 20:05:02 by manavarr         ###   ########.fr       */
+/*   Updated: 2022/04/03 19:32:43 by manavarr         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include <stdio.h>
 
 unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 {
